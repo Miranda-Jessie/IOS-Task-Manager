@@ -27,7 +27,6 @@ class addTaskController: UIViewController {
                 self.present(errorAlert, animated: true, completion: nil)
                 return
         }
-        //SaveTask function will go here
         saveTask()
     }
     //Shows options for priority
